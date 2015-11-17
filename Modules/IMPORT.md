@@ -23,6 +23,8 @@ Il est possible de faire des imports partiels avec la syntaxe :
 # import partiel
 from mon_module import f, g, une_classe
 
-# équivaut à l'import global
+# équivaut (presque) à l'import global
 from mon_module import *
 ```
+
+En utilisant `from`, on fait disparaître la référence au module. Il se peut donc que cela crée des conflits de nommage, auquel cas, le dernier à parler (importé) à raison.
