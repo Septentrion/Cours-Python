@@ -1,5 +1,6 @@
 import re
 
-pattern = re.compile(u'[d\u064B]')
-print (pattern.search('بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ'))    # Match at index 0
-print (pattern.search("dog", 1))  # No match; search doesn't include the "d"
+pattern = re.compile("d")
+print (pattern.search("dog"))    # Match @ index 0
+print (pattern.match("dog"))    # Match au début de la chaîne
+print (pattern.search("dog", 1))  # Match @ index 1 ; Aucun résultat
