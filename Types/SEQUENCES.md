@@ -3,7 +3,7 @@
 Un certain nombre d'opérateurs s'appliquent spécifiquement sur les séquences :
 
 Operateur | Resultat | Notes
--- | -- | --
+--------- | -------- | -----
 x in s | x est un élément de s |
 x not in s | x n'est pas un élément de s |
 s + t | union de s et t |
