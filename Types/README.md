@@ -2,7 +2,13 @@
 
 ## Les booléens
 
-## Les nombres : int, foat, complex
+[Présentation](BOOL.md)
+
+## Les nombres : int, float, complex
+
+Il y a trois types de nombres, mais il existe également le type `fraction` et `decimal`accessibles dans la bibliothèque standard. A noter que `bool` est un sous-type de `int`
+
+[Présentation](NUMBERS.md)
 
 ## Les séquences : list, tuple, range
 
