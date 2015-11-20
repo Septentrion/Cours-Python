@@ -69,6 +69,6 @@ parrot(**d)
 
 ## Fonctions anonymes
 
-[Voir le chapitre sur la programmation fonctionnelle](README.md)
+[Voir le chapitre sur la programmation fonctionnelle](../Programmation%20fonctionnelle/README.md)
 
 
