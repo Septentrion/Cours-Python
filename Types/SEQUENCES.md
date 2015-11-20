@@ -21,7 +21,7 @@ s.count(x) | cardinal des occurences de x dans s |
 D'autre opérateurs ne s'appliquent que sur les séquences variables (les `list` pour les types prédéfinis) :
 
 Operateur | Resultat | Notes
--- | -- | --
+--------- | -------- | -----
 s[i] = x |  |  
 s[i:j] = t | |  t doit être itérable 
 del s[i:j] | efface les éléments |  
