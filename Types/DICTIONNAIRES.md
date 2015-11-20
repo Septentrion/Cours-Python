@@ -13,7 +13,7 @@ Les objetx retournés par `keys()`, `values()` et `items()` sont des _vues dynam
 
 Ces objets sont itérables, et admenttent des méthodes particulières
 
-Opérateur Fonction
+Opérateur | Fonction
 ------- | --------
 len | Taille de la vue 
 iter |  retourne un itérateur sur la vue
